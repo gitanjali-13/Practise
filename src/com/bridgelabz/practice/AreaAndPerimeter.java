@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.lang.Math;
 
 public class AreaAndPerimeter {
-    double r,area ,length,width;
+    double r,area ,length,width,perimeter;
     Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -77,8 +77,11 @@ public class AreaAndPerimeter {
         r = sc.nextDouble();
         area = Math.PI * r * r ;
         System.out.println("Area of the circle:" +area);
+        perimeter = 2 * Math.PI * r;
+        System.out.println("Perimeter of the circle:" +perimeter);
 
     }
+
 
 
 }
